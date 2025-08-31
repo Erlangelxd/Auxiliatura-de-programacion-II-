@@ -3,7 +3,7 @@ class Estadistica():
         self.datos=datos
     def muestra(self):
         return len(self.datos)
-    def frecuencias(self):
+    def frecuencias(self): #Resuelto :)
         unicos = set(self.datos)
         for valor in sorted(unicos):
             print(f"El valor {valor} se repite {self.datos.count(valor)} veces.")
