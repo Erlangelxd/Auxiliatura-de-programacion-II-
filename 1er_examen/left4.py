@@ -47,7 +47,6 @@ infectado1=Infectado("Boomer", 30, 20)
 infectado2=Infectado("Tank", 1000, 50)
 print(infectado2.atacar(superviviente2))
 print(infectado2.atacar(superviviente2))
-
 print(superviviente1.revivir(superviviente2))
 print(superviviente2.curarse())
 print(superviviente1.atacar(infectado1))
