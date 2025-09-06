@@ -14,7 +14,9 @@ class Superviviente(Personaje):
         return f"{self.nombre} ha atacado a {infectado.nombre}, ahora tiene {infectado.vida} de vida"
     def curarse(self):
         if self.vida < 100:
-            self.vida=self.vida+30
+            self.vida=self.vida+60
+            if self.vida > 100:
+                self.vida = 100
         elif self.vida >= 100:
             self.vida = 100
             return f"{self.nombre} ya tiene la vida completa"
@@ -45,8 +47,8 @@ superviviente1=Superviviente("Ellis", 50, 30)
 superviviente2=Superviviente("Nick", 100, 20)
 infectado1=Infectado("Boomer", 30, 20)
 infectado2=Infectado("Tank", 1000, 50)
+print(superviviente1.atacar(infectado1))
 print(infectado2.atacar(superviviente2))
 print(infectado2.atacar(superviviente2))
 print(superviviente1.revivir(superviviente2))
 print(superviviente2.curarse())
-print(superviviente1.atacar(infectado1))

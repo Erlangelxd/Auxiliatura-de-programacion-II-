@@ -16,7 +16,9 @@ class Perro(Animal):
         return "Guau"
     def busqueda(self, objeto):
         return f"{self.nombre} está buscando {objeto}"
-    
+class xd(Animal):
+    def __init__(self, nombre, edad, genero):
+        super().__init__(nombre, edad, genero)
 class Gato(Animal):
     def __init__(self, nombre, edad, genero, color):
         super().__init__(nombre, edad, genero)
