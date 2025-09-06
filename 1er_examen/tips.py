@@ -1,4 +1,4 @@
-V=["a", "z","u"]
+V=[2,3,7,0,9]
 print(V)
 V.append(11) #Insertar datos al final de la lista 
 V.pop(0) #Obtener/sacar datos de una posicion
