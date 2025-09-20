@@ -69,6 +69,9 @@ class Changlong(Personaje):
             return f"{rival.nombre} explotó en mil pedazos"
         return f"{self.nombre} ha atacado a {rival.nombre}, ahora tiene {rival.ki} de ki"
 
+# crear una subclase de personaje llamada majinbuu y que esta pueda curarse, atacar, 
+# convertir a un personaje en chocolate y poder fusionarse
+
 goku=Sayayin("Goku", 100, "Sayayin", 50, False, "Base")
 picoro=Namekusei_jin("Picoro", 80, "Namekusei-jin", 40)
 krillin=Personaje("Krillin", 50, "Humano", 30)

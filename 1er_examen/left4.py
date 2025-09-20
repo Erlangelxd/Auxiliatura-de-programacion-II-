@@ -52,3 +52,6 @@ print(infectado2.atacar(superviviente2))
 print(infectado2.atacar(superviviente2))
 print(superviviente1.revivir(superviviente2))
 print(superviviente2.curarse())
+
+
+pr
