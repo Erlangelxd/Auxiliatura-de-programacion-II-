@@ -32,3 +32,5 @@ for posible, contador in dict.items():
 #         b=posible
 
 # print(b, a)
+class d:
+    def ini

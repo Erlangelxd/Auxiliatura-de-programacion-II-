@@ -6,6 +6,8 @@ class Personaje:
 class Superviviente(Personaje):
     def __init__(self, nombre, vida, daño):
         super().__init__(nombre, vida, daño)
+    def mostrar(self):
+        return f"{self.nombre} - Vida: {self.vida}, Daño: {self.daño}"
     def atacar(self, infectado):
         infectado.vida=infectado.vida-self.daño
         if infectado.vida <= 0:
@@ -52,6 +54,4 @@ print(infectado2.atacar(superviviente2))
 print(infectado2.atacar(superviviente2))
 print(superviviente1.revivir(superviviente2))
 print(superviviente2.curarse())
-
-
-pr
+print(superviviente1.mostrar())
