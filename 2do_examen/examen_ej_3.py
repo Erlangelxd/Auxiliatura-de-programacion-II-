@@ -17,6 +17,14 @@ class EstudiantePregrado(Estudiante):
             return f"Estudiante de pregrado aprobado"
         else:
             return f"Estudiante de pregrado reprobado"
+        dsfsfdsf
+        df
+        ds
+        f
+        dsf
+        dsf
+        dsfds
+        f
 class EstudiantePostgrado(Estudiante):
     def __init__(self, nombre, edad, nota1, nota2, nota3):
         super().__init__(nombre, edad, nota1, nota2, nota3)
